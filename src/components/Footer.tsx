@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import { FaPhone, FaEnvelope, FaMapMarkerAlt, FaWhatsapp, FaFacebookF, FaInstagram, FaLinkedinIn } from 'react-icons/fa';
+import logo from '../assets/dma-logo.png';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -29,10 +30,12 @@ const Footer = () => {
           {/* Company Info */}
           <div className="space-y-6">
             <div className="flex items-center space-x-3">
-              <div className="text-4xl">🏢</div>
+              <div className="text-4xl">
+                <img src={logo} alt="DMA Realtors Logo" className="w-46 bg-white" />
+              </div>
               <div>
-                <h3 className="text-2xl font-bold">DMA Rentals</h3>
-                <p className="text-accent text-sm">Spaces to Dreams</p>
+                <h3 className="text-2xl font-bold">DMA Rental & Real Estate Services</h3>
+                {/* <p className="text-accent text-sm">Spaces to Dreams</p> */}
               </div>
             </div>
             <p className="text-neutral-300 leading-relaxed">
@@ -42,7 +45,7 @@ const Footer = () => {
               <a href="#" className="w-10 h-10 bg-accent/20 hover:bg-accent rounded-full flex items-center justify-center transition-all duration-300 hover:scale-110">
                 <FaFacebookF />
               </a>
-              <a href="#" className="w-10 h-10 bg-accent/20 hover:bg-accent rounded-full flex items-center justify-center transition-all duration-300 hover:scale-110">
+              <a href="https://www.instagram.com/dmarealtors7/" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-accent/20 hover:bg-accent rounded-full flex items-center justify-center transition-all duration-300 hover:scale-110">
                 <FaInstagram />
               </a>
               <a href="#" className="w-10 h-10 bg-accent/20 hover:bg-accent rounded-full flex items-center justify-center transition-all duration-300 hover:scale-110">
@@ -93,7 +96,7 @@ const Footer = () => {
                 <FaMapMarkerAlt className="text-accent mt-1 flex-shrink-0" />
                 <div>
                   <p className="font-semibold text-white">Office Address</p>
-                  <p className="text-sm">Singapura, Bengaluru – 560097</p>
+                  <p className="text-sm">Singapura Village, Bengaluru – 560097</p>
                 </div>
               </div>
               <div className="flex items-start space-x-3 text-neutral-300">
@@ -109,8 +112,8 @@ const Footer = () => {
                 <FaEnvelope className="text-accent mt-1 flex-shrink-0" />
                 <div>
                   <p className="font-semibold text-white">Email</p>
-                  <a href="mailto:info@dmarentals.com" className="text-sm hover:text-accent transition-colors">
-                    info@dmarentals.com
+                  <a href="mailto:dmarealtors7@gmail.com" className="text-sm hover:text-accent transition-colors">
+                    dmarealtors7@gmail.com
                   </a>
                 </div>
               </div>
@@ -129,7 +132,7 @@ const Footer = () => {
         <div className="container-custom py-6">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <p className="text-neutral-400 text-sm text-center md:text-left">
-              © {currentYear} DMA Rentals and Real Estate Services. All rights reserved.
+              © {currentYear} DMA Rental & Real Estate Services and Real Estate Services. All rights reserved.
             </p>
             <p className="text-neutral-400 text-sm">
               Developed with ❤️ by <span className="text-accent">Vishal</span>

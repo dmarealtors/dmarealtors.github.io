@@ -60,7 +60,7 @@ const Home = () => {
       <section className="section-padding bg-white">
         <div className="container-custom">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold text-primary mb-4">
+            <h2 className="text-4xl md:text-5xl font-bold text-primary mb-4 mt-4">
               Our Core Services
             </h2>
             <p className="text-xl text-neutral-600 max-w-2xl mx-auto">
@@ -70,7 +70,7 @@ const Home = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {/* Service 1 */}
-            <div className="group bg-gradient-to-br from-neutral-50 to-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 border border-neutral-200 hover:border-accent transform hover:-translate-y-2">
+            <div className="group bg-gradient-to-br from-neutral-50 to-white p-8 mb-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 border border-neutral-200 hover:border-accent transform hover:-translate-y-2">
               <div className="text-6xl mb-6 transform group-hover:scale-110 transition-transform duration-300">
                 <FaHome className="text-accent" />
               </div>
@@ -127,7 +127,7 @@ const Home = () => {
       <section className="section-padding bg-neutral-50">
         <div className="container-custom">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold text-primary mb-4">
+            <h2 className="text-4xl md:text-5xl font-bold text-primary mb-4 mt-6">
               Featured Properties
             </h2>
             <p className="text-xl text-neutral-600">
@@ -141,7 +141,7 @@ const Home = () => {
             ))}
           </div>
 
-          <div className="text-center">
+          <div className="text-center mb-6">
             <Link
               to="/properties"
               className="inline-flex items-center px-8 py-4 bg-primary hover:bg-primary-dark text-white font-bold rounded-full transition-all duration-300 hover:shadow-xl hover:scale-105"
@@ -159,7 +159,7 @@ const Home = () => {
             <div>
               <h2 className="text-4xl md:text-5xl font-bold text-primary mb-8">
                 Why Choose<br />
-                <span className="text-accent">DMA Rentals?</span>
+                <span className="text-accent">DMA Rental & Real Estate Services?</span>
               </h2>
               <div className="space-y-6">
                 {[
@@ -198,9 +198,9 @@ const Home = () => {
       </section>
 
       {/* Testimonials */}
-      <section className="section-padding bg-neutral-50">
+      <section className="section-padding bg-neutral-50 mb-8">
         <div className="container-custom">
-          <div className="text-center mb-16">
+          <div className="text-center mb-16 mt-16">
             <h2 className="text-4xl md:text-5xl font-bold text-primary mb-4">
               What Our Clients Say
             </h2>
@@ -241,9 +241,9 @@ const Home = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="section-padding bg-gradient-to-r from-primary via-primary-light to-primary text-white">
+      <section className="section-padding pb-8 bg-gradient-to-r from-primary via-primary-light to-primary text-white">
         <div className="container-custom text-center">
-          <h2 className="text-4xl md:text-5xl font-bold mb-6">
+          <h2 className="text-4xl md:text-5xl font-bold mb-6 pt-6">
             Ready to Find Your Dream Property?
           </h2>
           <p className="text-xl mb-8 opacity-90 max-w-2xl mx-auto">

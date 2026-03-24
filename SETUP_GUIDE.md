@@ -1,4 +1,4 @@
-# 📘 Complete Setup Guide for DMA Rentals Website
+# 📘 Complete Setup Guide for DMA Rental & Real Estate Services Website
 
 ## 🎯 Step-by-Step Installation
 
@@ -159,7 +159,7 @@ Edit `src/styles/index.css`:
 ### 2. Update Contact Information
 
 **Phone Number:** Search and replace `+918618938686` in all files
-**Email:** Search and replace `info@dmarentals.com`
+**Email:** Search and replace `dmarealtors7@gmail.com`
 **Address:** Search and replace `Singapura, Bengaluru – 560097`
 
 Files to update:
@@ -207,7 +207,7 @@ Edit `index.html` Google Fonts link and `src/styles/index.css`:
 ### 5. Update Business Name
 
 Search and replace:
-- `DMA Rentals` → Your business name
+- `DMA Rental & Real Estate Services` → Your business name
 - `dmarealtors` → your-business-name (in URLs)
 
 ## 🚀 Building for Production
@@ -367,7 +367,7 @@ Before going live, verify:
 
 ## 🎉 You're Ready!
 
-Your DMA Rentals website is now set up and ready to launch!
+Your DMA Rental & Real Estate Services website is now set up and ready to launch!
 
 **Next Steps:**
 1. Customize content

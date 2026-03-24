@@ -115,7 +115,7 @@ export const testimonials = [
     id: 1,
     name: "Rajesh Kumar",
     role: "Home Buyer",
-    content: "DMA Rentals helped me find my dream home and even assisted with the home loan process. Very professional service!",
+    content: "DMA Rental & Real Estate Services helped me find my dream home and even assisted with the home loan process. Very professional service!",
     rating: 5,
     image: "https://ui-avatars.com/api/?name=Rajesh+Kumar&background=c8a875&color=fff&size=100"
   },

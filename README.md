@@ -1,8 +1,8 @@
-# 🏢 DMA Rentals - Real Estate & Loan Services Website
+# 🏢 DMA Rental & Real Estate Services - Real Estate & Loan Services Website
 
 **Tagline:** *From Finding Spaces to Funding Dreams*
 
-A modern, production-ready website for DMA Rentals and Real Estate Services built with React, TypeScript, and Tailwind CSS.
+A modern, production-ready website for DMA Rental & Real Estate Services and Real Estate Services built with React, TypeScript, and Tailwind CSS.
 
 ## 🌟 Features
 
@@ -140,7 +140,7 @@ dmarealtors/
 
 Edit `/src/data/properties.ts` and page files:
 - Phone: `+91 86189 38686`
-- Email: `info@dmarentals.com`
+- Email: `dmarealtors7@gmail.com`
 - Address: `Singapura, Bengaluru – 560097`
 
 ### Add/Edit Properties
@@ -226,7 +226,7 @@ All pages include:
 
 For support or customization requests:
 - **Phone**: +91 86189 38686
-- **Email**: info@dmarentals.com
+- **Email**: dmarealtors7@gmail.com
 - **Location**: Singapura, Bengaluru – 560097
 
 ## 👨‍💻 Developer
@@ -235,8 +235,8 @@ Built with ❤️ by **Vishal** ([am-vishal](https://github.com/am-vishal))
 
 ## 📄 License
 
-This project is private and proprietary to DMA Rentals and Real Estate Services.
+This project is private and proprietary to DMA Rental & Real Estate Services and Real Estate Services.
 
 ---
 
-**DMA Rentals** - *Your Reliable Partner in Rentals, Realty, and Loans*
+**DMA Rental & Real Estate Services** - *Your Reliable Partner in Rentals, Realty, and Loans*

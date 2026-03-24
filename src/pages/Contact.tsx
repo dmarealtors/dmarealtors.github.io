@@ -13,7 +13,7 @@ const Contact = () => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     // Create WhatsApp message
-    const message = `Hello DMA Rentals,\n\nName: ${formData.name}\nEmail: ${formData.email}\nPhone: ${formData.phone}\nSubject: ${formData.subject}\n\nMessage:\n${formData.message}`;
+    const message = `Hello DMA Rental & Real Estate Services,\n\nName: ${formData.name}\nEmail: ${formData.email}\nPhone: ${formData.phone}\nSubject: ${formData.subject}\n\nMessage:\n${formData.message}`;
     const whatsappUrl = `https://wa.me/918618938686?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');
   };
@@ -41,8 +41,8 @@ const Contact = () => {
     {
       icon: <FaEnvelope />,
       title: 'Email Address',
-      content: 'info@dmarentals.com',
-      link: 'mailto:info@dmarentals.com'
+      content: 'dmarealtors7@gmail.com',
+      link: 'mailto:dmarealtors7@gmail.com'
     },
     {
       icon: <FaClock />,
@@ -212,7 +212,7 @@ const Contact = () => {
                 </button>
 
                 <p className="text-sm text-neutral-600 text-center">
-                  By submitting this form, you agree to be contacted by DMA Rentals
+                  By submitting this form, you agree to be contacted by DMA Rental & Real Estate Services
                 </p>
               </form>
             </div>
@@ -237,7 +237,7 @@ const Contact = () => {
                     allowFullScreen
                     loading="lazy"
                     referrerPolicy="no-referrer-when-downgrade"
-                    title="DMA Rentals Office Location"
+                    title="DMA Rental & Real Estate Services Office Location"
                   ></iframe>
                 </div>
               </div>
@@ -275,7 +275,7 @@ const Contact = () => {
                   </a>
 
                   <a
-                    href="mailto:info@dmarentals.com"
+                    href="mailto:dmarealtors7@gmail.com"
                     className="flex items-center space-x-4 p-4 bg-white/10 hover:bg-white/20 rounded-xl transition-all duration-300 group"
                   >
                     <div className="w-12 h-12 bg-accent rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
@@ -283,7 +283,7 @@ const Contact = () => {
                     </div>
                     <div>
                       <p className="text-sm opacity-90">Email Us</p>
-                      <p className="font-bold text-lg">info@dmarentals.com</p>
+                      <p className="font-bold text-lg">dmarealtors7@gmail.com</p>
                     </div>
                   </a>
                 </div>

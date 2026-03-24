@@ -45,7 +45,7 @@ const About = () => {
         </div>
         <div className="relative z-10 container-custom text-center">
           <h1 className="text-5xl md:text-7xl font-bold text-white mb-6">
-            About <span className="text-accent">DMA Rentals</span>
+            About <span className="text-accent">DMA Rental & Real Estate Services</span>
           </h1>
           <p className="text-xl md:text-2xl text-white/90 max-w-3xl mx-auto">
             Building trust through transparency, professionalism, and personalized service
@@ -63,7 +63,7 @@ const About = () => {
               </h2>
               <div className="space-y-4 text-lg text-neutral-700 leading-relaxed">
                 <p>
-                  <strong className="text-primary">DMA Rentals and Real Estate Services</strong> is dedicated to delivering dependable and customer-focused solutions in the real estate sector. With practical industry experience and a strong understanding of market dynamics, we help clients manage property needs efficiently and securely.
+                  <strong className="text-primary">DMA Rental & Real Estate Services and Real Estate Services</strong> is dedicated to delivering dependable and customer-focused solutions in the real estate sector. With practical industry experience and a strong understanding of market dynamics, we help clients manage property needs efficiently and securely.
                 </p>
                 <p>
                   We believe in building long-term relationships through trust, ethical practices, and seamless service delivery. Whether you are looking to rent, buy, sell, or arrange financing, we ensure a smooth and hassle-free experience.
@@ -183,7 +183,7 @@ const About = () => {
                 Why Choose Us
               </h2>
               <p className="text-xl text-neutral-600">
-                What sets DMA Rentals apart from the rest
+                What sets DMA Rental & Real Estate Services apart from the rest
               </p>
             </div>
 
